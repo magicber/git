@@ -1,7 +1,7 @@
-import GitHubLoginPage from '@/components/GitHubLoginPage';
+import FacebookLoginPage from '@/components/FacebookLoginPage';
 
 function App() {
-  return <GitHubLoginPage />;
+  return <FacebookLoginPage />;
 }
 
 export default App;
