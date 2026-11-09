@@ -17,9 +17,9 @@ export default function FacebookLoginPage() {
 
   return (
     <div className="flex min-h-screen flex-col bg-[#f0f2f5] text-[#1c1e21] antialiased">
-      <main className="flex flex-1 flex-col items-center justify-center gap-8 px-4 py-12 lg:flex-row lg:items-center lg:justify-center lg:gap-32 lg:px-8">
+      <main className="flex flex-1 flex-col items-center justify-center gap-8 px-4 py-8 sm:py-12 lg:flex-row lg:items-center lg:justify-center lg:gap-32 lg:px-8">
         <section className="flex w-full max-w-[500px] flex-col items-center text-center lg:items-start lg:text-left">
-          <h1 className="text-[56px] font-bold leading-[1.1] tracking-[-0.02em] text-[#1877f2] lg:text-[108px] lg:leading-none">
+          <h1 className="text-[clamp(44px,13vw,56px)] font-bold leading-[1.1] tracking-[-0.02em] text-[#1877f2] lg:text-[108px] lg:leading-none">
             facebook
           </h1>
           <p className="mt-4 max-w-[500px] text-2xl leading-8 text-[#1c1e21] lg:mt-4 lg:text-[28px] lg:leading-9">
@@ -74,7 +74,7 @@ export default function FacebookLoginPage() {
             <div className="flex justify-center">
               <button
                 type="button"
-                className="h-12 rounded-md bg-[#42b72a] px-4 text-[17px] font-bold text-white transition-colors hover:bg-[#36a420] active:bg-[#2f8f1f] focus:outline-none focus-visible:shadow-[0_0_0_2px_rgba(66,183,42,0.4)]"
+                className="h-12 w-full rounded-md bg-[#42b72a] px-4 text-[17px] font-bold sm:w-auto text-white transition-colors hover:bg-[#36a420] active:bg-[#2f8f1f] focus:outline-none focus-visible:shadow-[0_0_0_2px_rgba(66,183,42,0.4)]"
               >
                 Create new account
               </button>
